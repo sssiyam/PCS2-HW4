@@ -1,0 +1,10 @@
+read1 = "GATTAGAT"
+read2 = "GAUUAGAU"
+def findmut(read1, read2):
+    mutation = 0
+    for i in range(0, len(read1)):
+        if (read1[i] != read2[i]):
+            mutation = mutation + 1
+    return count
+
+print(findmut(read1, read2))
