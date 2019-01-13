@@ -1,0 +1,16 @@
+dna = ''
+dnalist = [j for j in dna]
+
+for i in range (len(dnalist)):
+    if dnalist[i]=='G':
+        dnalist[i]='C'
+    elif dnalist[i]=='C':
+        dnalist[i]='G'
+    elif dnalist[i]=='A':
+        dnalist[i]='T'
+    else:
+        dnalist[i]='A'
+
+
+comstrand = ''.join(dnalist)
+cdna = comstrand[::-1]
