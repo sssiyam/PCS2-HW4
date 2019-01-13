@@ -1,0 +1,7 @@
+
+with open('ebin.txt', 'r') as f:
+    n = int(f.readline())
+    p = [float(i) for i in f.readline().split(' ')]
+
+for k in p:
+print (n*k)
