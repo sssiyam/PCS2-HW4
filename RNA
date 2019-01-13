@@ -1,0 +1,8 @@
+dna = ''
+dnalist = [j for j in dna]
+
+for i in range (len(dnalist)):
+    if dnalist[i]=='T':
+        dnalist[i]='U'
+
+rna = ''.join(dnalist)
